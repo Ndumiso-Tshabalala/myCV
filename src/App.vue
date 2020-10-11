@@ -5,6 +5,7 @@
     <About />
     <Skills />
     <Details />
+    <GalleryInfo/>
 
   </div>
 </template>
@@ -15,6 +16,7 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Details from './components/Details.vue'
 import Skills from './components/Skills.vue'
+import GalleryInfo from './components/GalleryInfo.vue'
 
 
 
@@ -26,7 +28,8 @@ export default {
     Home,
     About,
    Skills,
-    Details
+    Details,
+    GalleryInfo
    
 
   }
