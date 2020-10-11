@@ -20,6 +20,38 @@
     </div>
     <div class="container-fluid mb-4">
         <div class="row">
+            
+            <!-- Let's make it responsive -->
+            <div class="col-12 col-lg-6 mb-4">
+                <!-- iframe -->
+                <div class="card w-100">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="player" class="embed-responsive-item" src="" frameborder="0"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 id="video-title" class="card-title">Video title</h5>
+                        <h6 id="video-channelTitle" class="text-info">Channel name</h6>
+                        <p id="video-description" class="card-text">Video description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <ul class="list-unstyled" id="videoList"></ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
              
              
