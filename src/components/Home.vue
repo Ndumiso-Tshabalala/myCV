@@ -10,6 +10,7 @@
         <a href="https://www.instagram.com/ndumiso_tshabalala">Instagram <i class="fab fa-instagram"></i> </a>
         <a href="https://www.linkedin.com/in/ndumiso-tshabalala-bb86631b4/">linkedin <i class="fab fa-linkedin-in"></i> </a>
     </div>
+    
 
 
     <!-- home section start -->
