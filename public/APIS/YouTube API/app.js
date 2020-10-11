@@ -90,6 +90,43 @@ function findVideoById(id) {
         console.log(data);
     });
 
-}
+    function clearVideoList() {
+        videoList.find(".media").remove();
+    }
+
+    function play(id, title, description, channelTitle) {
+        player.attr("src", `https://www.youtube.com/embed/${id}?enablejsapi=1`);
+        $("#video-title").text(title);
+        $("#video-description").text(description);
+        $("#video-channelTitle").text(channelTitle);
+    }
+
+    //select the video
+    videoList.on("click", "li", function() {
+        let id = $(this).attr("id");
+        findVideoById(id);
+    });
+
+    //find video by id
+    function findVideoById(id) {
+        $.ajax({
+            method: "GET",
+            url: "https://www.googleapis.com/youtube/v3/videos",
+            data: {
+                key: apiKey,
+                id: id,
+                part: "snippet",
+
+            }
+        }).done((data) => {
+            let video = data.items[0];
+            let snippet = video.snippet;
+            play(id, snippet.title, snippet.description, snippet.channelTitle)
+
+        }).fail((data) => {
+            console.log(data);
+        });
+
+    }
 
 });
