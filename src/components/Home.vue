@@ -1,18 +1,6 @@
 <template>
  <div id="app">
   <!-- Home page section -->   
- 
-    
-    <!-- social buttons -->
-    <div class = "social">
-        <a href="https://www.facebook.com/ndumiso.tshabalala.545">Facebook <i class="fab fa-facebook"></i> </a>
-        <a href="https://www.twitter.com/ndumiso_yg">Twitter <i class="fab fa-twitter"></i> </a>
-        <a href="https://www.instagram.com/ndumiso_tshabalala">Instagram <i class="fab fa-instagram"></i> </a>
-        <a href="https://www.linkedin.com/in/ndumiso-tshabalala-bb86631b4/">linkedin <i class="fab fa-linkedin-in"></i> </a>
-    </div>
-    
-
-
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">

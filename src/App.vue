@@ -7,7 +7,8 @@
     <Skills />
     <Details />
     <GalleryInfo/>
-    <Video />  
+    <Video /> 
+    <Contact /> 
    
 
   </div>
@@ -23,6 +24,7 @@ import Details from './components/Details.vue'
 import Skills from './components/Skills.vue'
 // import GalleryInfo from './components/GalleryInfo.vue'
 import Video from './components/Video.vue'
+import Contact from './components/Contact.vue'
 
 
 
@@ -37,7 +39,8 @@ export default {
    Skills,
     Details,
     // GalleryInfo
-    Video
+    Video,
+    Contact
    
 
   }

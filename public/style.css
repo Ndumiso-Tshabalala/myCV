@@ -221,74 +221,52 @@ section .title::after{
 
 /* social buttons */
 
-.social{
-    font-family: 'Ubuntu', sans-serif;
-    position: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translate(-160px, 0);
-}
+    .social{  
+        font-family: 'Ubuntu', sans-serif;
+        /* position: fixed; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
 
-.social a{
-    
-    color: white;
-    background:  black;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: none;
-    display: block;
-    margin: 2px;
-    padding: 10px;
-    width: 200px;
-    text-align: right;
-    border-radius: 30px;
-    transition: 1s;
-    transition-property: transform;
-}
-
-.social a:hover{
-    transform: translate(140px, 0);
-}
-
-.social i{
-    margin-left: 10px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-}
-
-.social a:nth-child(1) i{
-    color: rgb(79, 79, 207);
-}
-
-.social a:nth-child(2) i{
-    color: #249ed6;
-}
-.social a:nth-child(3) i{
-    color: transparent;
-    background-image: linear-gradient(45deg, #FFDF9E, #E56969,#8A49A1);
-    -webkit-background-clip: text;
-    font-weight: 600;
-}
-.social a:nth-child(4) i{
-    color: #1DA0F0;
-}
-
-/* @media all (max-width: 500px){
-    .social{
-        size
     }
-} */
+    .social a{
+        border-radius: 30px;
+        font-weight: 100;
+        text-decoration: none;
+        margin: 1px;
+        padding: 7px;
+        width: 50px;
+        text-align: right;
+        border-radius: 30px;
+        transition: 1s;
+        transition-property: transform;
 
-
-
-
-
-
-
-
+    }
+    
+    .social i{
+        margin-left: 10px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .social a:nth-child(1) i{
+        color: rgb(79, 79, 207);
+    }
+    
+    .social a:nth-child(2) i{
+        color: #249ed6;
+    }
+    .social a:nth-child(3) i{
+        color: transparent;
+        background-image: linear-gradient(45deg, #FFDF9E, #E56969,#8A49A1);
+        -webkit-background-clip: text;
+        font-weight: 600;
+    }
+    .social a:nth-child(4) i{
+        color: #1DA0F0;
+    }   
   
 /* home section styling */
 .home{
@@ -861,6 +839,9 @@ input[type = radio]:checked{
 
 
 /* contact section styling */
+.contact{
+    background: url("images/wallpaper.jpg") no-repeat;
+}
 .contact .title::after{
     content: "get in touch";
 }
