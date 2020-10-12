@@ -20,7 +20,7 @@
                 <div class="text-1">Hi, welcome </div>
                 <div class="text-2">I'm Ndumiso Tshabalala</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#contact">Hire me</a>
+                <a href="#contact">Hiring?</a>
             </div>
         </div>
     </section>

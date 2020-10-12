@@ -1,22 +1,28 @@
 <template>
   <div id="app">
+    <!-- <Loader /> -->
     <AppHeader />
-    <Home />
-    <About />
+   <Home />
+    <About /> 
     <Skills />
     <Details />
     <GalleryInfo/>
+    <Video />  
+   
 
   </div>
 </template>
 
 <script>
+// import Loader from './components/Loader.vue'
 import AppHeader from './components/AppHeader.vue'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
+
 import Details from './components/Details.vue'
 import Skills from './components/Skills.vue'
-import GalleryInfo from './components/GalleryInfo.vue'
+// import GalleryInfo from './components/GalleryInfo.vue'
+import Video from './components/Video.vue'
 
 
 
@@ -24,12 +30,14 @@ import GalleryInfo from './components/GalleryInfo.vue'
 export default {
   name: 'App',
   components: {
+    // Loader,
     AppHeader,
     Home,
     About,
    Skills,
     Details,
-    GalleryInfo
+    // GalleryInfo
+    Video
    
 
   }
@@ -38,12 +46,5 @@ export default {
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+
 </style>

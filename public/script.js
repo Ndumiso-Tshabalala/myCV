@@ -14,6 +14,16 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+         
+    
+    
+    // setTimeout(function(){
+    //     $('.loader_bg').fadeToggle();
+  
+    //   }, 1500);
+
+
+      
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
