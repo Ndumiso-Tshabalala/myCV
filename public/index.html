@@ -29,6 +29,17 @@
       <script type="text/javascript" src="path/to/instafeed.min.js"></script>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+      <div id = "map"></div>
+
+        <script> 
+        function initMap(){
+            let Campuskey = {lat: -26.689, lng: 27.094};
+            let map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 5, center: Campuskey}
+            );
+            let marker = new google.maps.Marker({position: Campuskey, map: map})
+        } </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDHaRa3vNTPQyMcuPACQEJHdfePTxQt88&callback=initMap"> </script>
    
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
